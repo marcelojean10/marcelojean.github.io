@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Jogo da Velha</title>
+	<meta name="description" content="Welcome to my game" />
+	<meta name="keywords" content="logic game basic" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="author" content="Marcelo Jean" />
+
+	<link rel="stylesheet" type="text/css" href="css/style.css" />	
+	<script type="text/javascript" src="js/script.js" /></script>
+
+</head>
+<body>
+	<div class="bloco">
+		<header>
+			<h1 class="center">Situação:</h1>
+		</header>
+
+		<div id="log" class="center"></div>
+	</div>
+	<div class="computer center">
+		<b>Computador</b>
+		<input type="checkbox" id="bot" checked />
+	</div>
+	<table border="1" align="center" cellspacing="5">
+		<tr>
+			<td><img src="img/branco.png" id="celula1" onclick="chkJogo(this.id)"></td>
+			<td><img src="img/branco.png" id="celula2" onclick="chkJogo(this.id)"></td>
+			<td><img src="img/branco.png" id="celula3" onclick="chkJogo(this.id)"></td>
+		</tr>
+		<tr>
+			<td><img src="img/branco.png" id="celula4" onclick="chkJogo(this.id)"></td>
+			<td><img src="img/branco.png" id="celula5" onclick="chkJogo(this.id)"></td>
+			<td><img src="img/branco.png" id="celula6" onclick="chkJogo(this.id)"></td>
+		</tr>
+		<tr>
+			<td><img src="img/branco.png" id="celula7" onclick="chkJogo(this.id)"></td>
+			<td><img src="img/branco.png" id="celula8" onclick="chkJogo(this.id)"></td>
+			<td><img src="img/branco.png" id="celula9" onclick="chkJogo(this.id)"></td>
+		</tr>
+	</table>
+
+	<footer class="center">
+		<p>Created by <a href="https://marcelojean10.github.io" target="_blank">Marcelo Jean</a></p>
+	</div>
+</body>
+</html>

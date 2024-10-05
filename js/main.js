@@ -1,4 +1,4 @@
-const myUserGithub = `marcelojean10`;
+const myUserGithub = `marcelojeantech`;
 
 fetch(`https://api.github.com/users/${myUserGithub}`, {
     method: 'GET',
